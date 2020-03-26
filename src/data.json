@@ -41,5 +41,8 @@
                 }
             ]
         }
-    ]
+    ],
+    "icons":{
+        "down":"image/down.png"
+    }
 }

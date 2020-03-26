@@ -3,6 +3,7 @@ import data from "../data.json";
 import FullPage from "../components/fullPage";
 
 import './skillSection.css'
+
 class skillSection extends Component {
   render() {
     return (
@@ -14,7 +15,7 @@ class skillSection extends Component {
               return (
                 <div className="logoanddiscription">
                   <div className="image-wrapper">
-                    <img src={eachSkill.content.image}></img>
+                    <img src={eachSkill.content.image}/>
                   </div>
                   <h4 className="skill-text">
                     {eachSkill.content.discription}
