@@ -43,6 +43,6 @@
         }
     ],
     "icons":{
-        "down":"image/down.png"
+        "down":"pics/downButton.png"
     }
 }

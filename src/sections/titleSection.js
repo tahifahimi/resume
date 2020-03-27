@@ -5,9 +5,25 @@ import data from "../data.json";
 import { SocialIcon } from "react-social-icons";
 import DownIcon from "../components/DownIcon";
 
+import {
+  Link,
+  DirectLink,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scroller
+} from "react-scroll";
+
 import "./titleSection.css";
 
 class titleSection extends Component {
+  scrollTo() {
+    scroller.scrollTo("scroll-to-element", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart"
+    });
+  }
   render() {
     return (
       <div>
@@ -26,10 +42,12 @@ class titleSection extends Component {
             <p className="texticons">{data.discription}</p>
           </FullPage>
         </div>
-        <DownIcon icon={data.icons.down}
-        onClick={()=>
-        console.log("im working")}
-         />
+        <DownIcon
+          icon={data.icons.down}
+          onClick={() => {
+            scroll.scrollTo(700);
+          }}
+        />
       </div>
     );
   }

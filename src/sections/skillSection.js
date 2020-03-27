@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import data from "../data.json";
 import FullPage from "../components/fullPage";
+import DownIcon from '../components/DownIcon';
 
 import './skillSection.css'
 
@@ -25,6 +26,10 @@ class skillSection extends Component {
             })}
           </div>
         </FullPage>
+        <DownIcon icon={data.icons.down}
+        onClick={()=>
+        console.log("im working")}
+         />
       </div>
     );
   }
