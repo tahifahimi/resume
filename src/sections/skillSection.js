@@ -5,11 +5,15 @@ import DownIcon from '../components/DownIcon';
 
 import './skillSection.css'
 
+
 class skillSection extends Component {
   render() {
+    const {colorSituation} = this.props;
+
     return (
       <div>
-        <FullPage passSection="third">
+        <FullPage backcolor={colorSituation}>
+        {/* <Snowfall color={this.props.backcolor ? "white" : "darkblue"}/> */}
           <h3>{data.sections[1].title}</h3>
           <div className="cards">
             {data.sections[1].items.map(eachSkill => {

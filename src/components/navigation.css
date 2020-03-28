@@ -10,7 +10,13 @@
     margin: 0;
     padding: 0;
   }
-  
+  .anothercolor{
+    position: relative;
+    background-color: #FFFF00;
+    overflow: hidden; /* remove the scroll*/
+    margin: 0;
+    padding: 0;
+  }
   /* .mainnav{
     position: 'absolute';
     top: 0;

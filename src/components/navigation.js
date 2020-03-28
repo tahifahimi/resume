@@ -32,7 +32,7 @@ class NavigationBar extends Component {
     return (
       <div>
         <nav className="mainnav">
-          <ul className="listbar">
+          <ul className={this.props.backcolor ? "anothercolor" : "listbar"}>
             <li>
               {/* <Link
                 activeClass="active"

@@ -1,10 +1,5 @@
-.fullpage{
-    background-color: aqua;
-    width: 100%;
-    height: 100%;
-}
-.firstSection{
-    /* width: 100vw; */
+
+.page{
     min-height: 100vh;
     display: flex;
     background-color: rgb(94, 219, 219);
@@ -17,27 +12,7 @@
     
     min-height: 100vh;
     display: flex;
-    background-color: rgb(7, 8, 8);
-    flex: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.secondSection{
-    /* width: 100vw; */
-    min-height: 100vh;
-    display: flex;
-    background-color: rgb(243, 232, 75);
-    flex: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.thirdSection{
-    /* width: 100vw; */
-    min-height: 100vh;
-    display: flex;
-    background-color: rgb(72, 34, 122);
+    background-color: rgb(222, 236, 95);
     flex: auto;
     flex-direction: column;
     justify-content: center;

@@ -24,10 +24,12 @@ class aboutSection extends Component {
   }
   
   render() {
+    const {colorSituation} = this.props;
+
     return (
       <div>
         <div>
-        <FullPage passSection="second">
+        <FullPage backcolor={colorSituation}>
           <h3>{data.sections[0].title}</h3>
           <p className="paragraphs">{data.sections[0].items.content}</p>
         </FullPage>

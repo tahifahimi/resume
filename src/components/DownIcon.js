@@ -15,7 +15,7 @@ const DownIcon=(props)=>{
         >
           <div
             style={{
-              maxHeight:"30px",
+              maxHeight:"25px",
               maxWidth: "30px"
             }}
           >
