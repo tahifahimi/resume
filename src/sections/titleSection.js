@@ -25,10 +25,12 @@ class titleSection extends Component {
     });
   }
   render() {
+    const {colorSituation} = this.props;
     return (
       <div>
         <div>
-          <FullPage passSection="first">
+          {/* {console.log(colorSituation)} */}
+          <FullPage passSection="first" backcolor={colorSituation}>
             <h1 className="title">{data.title}</h1>
             <div className="icons-wrapper">
               {Object.keys(data.link).map(key => {

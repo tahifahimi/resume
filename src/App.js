@@ -9,16 +9,25 @@ import MyNav from "./components/navigation";
 import { Element } from "react-scroll";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    // this.changeColor = this.changeColor.bind(this);
+    this.state = {
+      colorSituation: false
+    };
+  }
+
+  changeColor = () => {
+    this.setState({ colorSituation: !this.state.colorSituation });
+    // console.log(this.state.colorSituation);
+  };
+
   render() {
     return (
       <div className="App">
-        {/* <div className="navigation"></div> */}
-
-        <MyNav >
-          {console.log(MyNav.colorName)}
-    
-        </MyNav>
-        <TitleSection />
+        {/* <MyNav>{console.log(MyNav.colorName)}</MyNav> */}
+        <MyNav changeColor={this.changeColor} />
+        <TitleSection colorSituation={this.state.colorSituation} />
         <Element name="About">
           <AboutSection />
         </Element>
