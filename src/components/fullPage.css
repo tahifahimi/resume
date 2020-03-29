@@ -1,20 +1,21 @@
-
-.page{
-    min-height: 100vh;
-    display: flex;
-    background-color: rgb(94, 219, 219);
-    flex: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+html {
+  font-family: "Roboto Condensed", sans-serif;
 }
-.black{
-    
-    min-height: 100vh;
-    display: flex;
-    background-color: rgb(222, 236, 95);
-    flex: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.page {
+  min-height: 100vh;
+  display: flex;
+  background-color: rgb(94, 219, 219);
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.black {
+  min-height: 100vh;
+  display: flex;
+  background-color: rgb(206, 153, 153);
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

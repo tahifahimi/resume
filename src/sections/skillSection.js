@@ -1,26 +1,24 @@
 import React, { Component } from "react";
 import data from "../data.json";
 import FullPage from "../components/fullPage";
-import DownIcon from '../components/DownIcon';
+import DownIcon from "../components/DownIcon";
 
-import './skillSection.css'
-
+import "./skillSection.css";
 
 class skillSection extends Component {
   render() {
-    const {colorSituation} = this.props;
+    const { colorSituation } = this.props;
 
     return (
       <div>
         <FullPage backcolor={colorSituation}>
-        {/* <Snowfall color={this.props.backcolor ? "white" : "darkblue"}/> */}
           <h3>{data.sections[1].title}</h3>
           <div className="cards">
             {data.sections[1].items.map(eachSkill => {
               return (
                 <div className="logoanddiscription">
                   <div className="image-wrapper">
-                    <img src={eachSkill.content.image}/>
+                    <img src={eachSkill.content.image} />
                   </div>
                   <h4 className="skill-text">
                     {eachSkill.content.discription}
@@ -30,10 +28,6 @@ class skillSection extends Component {
             })}
           </div>
         </FullPage>
-        <DownIcon icon={data.icons.down}
-        onClick={()=>
-        console.log("im working")}
-         />
       </div>
     );
   }

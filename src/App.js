@@ -27,11 +27,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <MyNav>{console.log(MyNav.colorName)}</MyNav> */}
-        <MyNav changeColor={this.changeColor} backcolor={this.state.colorSituation}/>
-        {/* {this.state.colorSituation ? <SnowStorm followMouse={false}/> : <SnowStorm snowColor='#000'/>} */}
-        <SnowStorm/>
-        {/* <SnowStorm snowColor={this.state.colorSituation ? '#000' : '#fff'} followMouse={false}/> */}
+        <MyNav
+          changeColor={this.changeColor}
+          backcolor={this.state.colorSituation}
+        />
+        <SnowStorm followMouse={false} />
         <TitleSection colorSituation={this.state.colorSituation} />
         <Element name="About">
           <AboutSection colorSituation={this.state.colorSituation} />

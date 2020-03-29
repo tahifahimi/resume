@@ -22,18 +22,17 @@ class aboutSection extends Component {
       smooth: "easeInOutQuart"
     });
   }
-  
+
   render() {
-    const {colorSituation} = this.props;
+    const { colorSituation } = this.props;
 
     return (
       <div>
         <div>
-        <FullPage backcolor={colorSituation}>
-          <h3>{data.sections[0].title}</h3>
-          <p className="paragraphs">{data.sections[0].items.content}</p>
-        </FullPage>
-        
+          <FullPage backcolor={colorSituation}>
+            <h3>{data.sections[0].title}</h3>
+            <p className="paragraphs">{data.sections[0].items.content}</p>
+          </FullPage>
         </div>
         <DownIcon
           icon={data.icons.down}

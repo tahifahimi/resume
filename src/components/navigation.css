@@ -1,51 +1,41 @@
 .navigation {
-    /* display: block; */
-    width: 100%;
-    margin: 0;
-  }
-  .listbar {
-    position: relative;
-    background-color: #00bfff;
-    overflow: hidden; /* remove the scroll*/
-    margin: 0;
-    padding: 0;
-  }
-  .anothercolor{
-    position: relative;
-    background-color: #FFFF00;
-    overflow: hidden; /* remove the scroll*/
-    margin: 0;
-    padding: 0;
-  }
-  /* .mainnav{
-    position: 'absolute';
-    top: 0;
-    flex: 1;
-    align-Self: 'stretch';
-    right: 0;
-    left: 0;
-  } */
-  
-  nav ul li {
-    list-style: none; /*no bullet for the list*/
-    float: left;
-  }
-  
-  ul li.topnav_bar {
-    float: right;
-  }
-  
-  ul li a{
-    display: block;
-    text-decoration: none; /*remove the underline*/
-    font-size: 16px;
-    min-height: 16px;
-    text-align: center;
-    padding: 14px;
-    text-transform: uppercase;
-  }
-  
-  ul li a:hover {
-    background-color: blue;
-  }
-  
+  /* display: block; */
+  width: 100%;
+  margin: 0;
+}
+.listbar {
+  position: relative;
+  background-color: #00bfff;
+  overflow: hidden; /* remove the scroll*/
+  margin: 0;
+  padding: 0;
+}
+.anothercolor {
+  position: relative;
+  background-color: #c97f7f;
+  overflow: hidden; /* remove the scroll*/
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style: none; /*no bullet for the list*/
+  float: left;
+}
+
+ul li.topnav_bar {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none; /*remove the underline*/
+  font-size: 16px;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+}
+
+ul li a:hover {
+  background-color: blue;
+}
