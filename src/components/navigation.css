@@ -5,14 +5,14 @@
 }
 .listbar {
   position: relative;
-  background-color: #00bfff;
+  background-color:  #c97f7f;
   overflow: hidden; /* remove the scroll*/
   margin: 0;
   padding: 0;
 }
 .anothercolor {
   position: relative;
-  background-color: #c97f7f;
+  background-color: #00bfff;
   overflow: hidden; /* remove the scroll*/
   margin: 0;
   padding: 0;

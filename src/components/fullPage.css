@@ -4,7 +4,7 @@ html {
 .page {
   min-height: 100vh;
   display: flex;
-  background-color: rgb(94, 219, 219);
+  background-color: rgb(206, 153, 153);
   flex: auto;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,7 @@ html {
 .black {
   min-height: 100vh;
   display: flex;
-  background-color: rgb(206, 153, 153);
+  background-color:rgb(94, 219, 219);
   flex: auto;
   flex-direction: column;
   justify-content: center;
