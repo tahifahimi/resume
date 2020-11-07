@@ -32,6 +32,7 @@ class aboutSection extends Component {
           <FullPage backcolor={colorSituation}>
             <h3>{data.sections[0].title}</h3>
             <p className="paragraphs">{data.sections[0].items.content}</p>
+    <p className="paragraphs">{data.sections[0].items.discription}</p>
           </FullPage>
         </div>
         <DownIcon
