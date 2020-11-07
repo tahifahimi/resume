@@ -4,7 +4,7 @@ html {
 .page {
   min-height: 100vh;
   display: flex;
-  background-color: rgb(206, 153, 153);
+  background-color: rgb(230, 215, 215);
   flex: auto;
   flex-direction: column;
   justify-content: center;
