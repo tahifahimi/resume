@@ -8444,6 +8444,16 @@ react-dom@^16.13.1:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
+react-dom@^16.7.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
 react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
@@ -8522,10 +8532,14 @@ react-scroll@^1.7.16:
     lodash.throttle "^4.1.1"
     prop-types "^15.5.8"
 
-react-snowfall@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-snowfall/-/react-snowfall-1.0.2.tgz#cafdeacea28638ea710687f101ec4c8e92550e9c"
-  integrity sha512-wmKa7Vhl26Ixo5hBp3lgM9z7o43itLv7LF7IuuD0vZPh3TclfM2wokujQb/gg5Ml2c6r6hyU7WXmvMg63TkhtA==
+react-snowstorm@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-snowstorm/-/react-snowstorm-0.0.3.tgz#ac459842dbe36babedc5b5f29c7e7b1dff6c8d49"
+  integrity sha512-czzsvaNdfVuDSrzoFfp4S8/cDvqGwoJhXIR+bwhoGV//nOq9PoezihvKzfm2fSPltvLSQydZ/dQbx6vvW231iw==
+  dependencies:
+    prop-types "^15.6.2"
+    react "^16.7.0"
+    react-dom "^16.7.0"
 
 react-social-icons@^4.1.0:
   version "4.1.0"
@@ -8538,6 +8552,15 @@ react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
   integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+
+react@^16.7.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -9859,9 +9882,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
